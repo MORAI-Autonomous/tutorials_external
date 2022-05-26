@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tutorials_external" type="talker.py" name="talker" />
+    <node pkg="tutorials_external" type="listener.py" name="listener" output="screen" />
+</launch>
